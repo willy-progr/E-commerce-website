@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+
+}
+.navbar-brand{
+    font-size: 2rem !important; 
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+    color: black !important;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(248, 26, 92) !important;
+
+}
+.search{
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px !important;
+    width: 40% !important;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92) !important;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn0:hover{
+    color: black;
+}
+.main{
+    background-image: url(img/lunchcopy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s !important;
+    box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+}
+.naturals:hover{
+    cursor: pointer !important;
+    border-right: 2px solid rgb(248, 26, 92);
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.about h1{
+    text-transform: capitalize;
+}
+.about-h1{
+    font-family: 'playfair', serif;
+    font-weight: 700;
+}
+.apple{
+    background-image: url(img/red1.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.apple h1{
+    font-family: 'playfair display';
+    font-size: 600;
+}
+.apple h6{
+    font-family: 'playfair display';
+    font-size: 600;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn6{
+    height: 51px !important;
+    width: 100px !important;
+    background-color: white !important;
+    margin-left: -10px !important;
+    border: 2px solid white !important;
+    font-weight: 600 !important;
+}
+.enter{
+    height: 50px !important;
+    width: 50% !important;
+    border: 2px solid white !important;
+    outline: none !important;
+    background-color: black !important;
+    color: white !important;
+    margin-top: 20px !important;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.bi{
+    margin: 4px;
+    font-size: 1.5rem ;
+    cursor: pointer;
+}
